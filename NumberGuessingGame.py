@@ -9,13 +9,13 @@ while i <= 5:
         print('That is Correct!')
         break;
     elif number_entered < secret_number:
-        print('Too Low! Enter Again.')
+        print('Low! Enter Again.')
         continue;
     elif number_entered > secret_number:
-        print('Too High! Enter Again.')
+        print('High! Enter Again.')
         continue;
     else:
-        print("Invalid Number! Tru Again.")
+        print("Invalid Number! Try Again.")
         continue;
 print('Game Over!')
 
